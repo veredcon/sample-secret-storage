@@ -1,0 +1,37 @@
+extension.yaml
+**/node_modules
+**/out
+**/dist
+.browser_modules
+lib
+*.log
+.idea
+**/coverage
+/plugins
+.eslintcache
+sonar-project.properties
+# pipeline generated files
+/.pipeline/*
+!/.pipeline/config.yaml
+/Checkmarx
+/piper*
+/wss-unified-agent.jar
+/whitesource*
+/.certificates
+**/*vsix
+
+# local env files
+**/.env.local
+**/.env.*.local
+
+# Log files
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+
+# cloned and patched...
+/openvscode-server
+
+# os generated files
+.DS_Store

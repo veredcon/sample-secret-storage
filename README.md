@@ -1,2 +1,3 @@
-# sample-secret-storage
-VSCode extension sample utilize secret storage API
+# secret-sample-extension README
+
+Secrest storage VSCode API example
